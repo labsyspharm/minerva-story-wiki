@@ -2,4 +2,4 @@
 layout: home
 ---
 
-Make Jelly site have a GitBook look!
+Use Minerva Author to publish your high-resolution multichannel images and narations with Minerva Story.
