@@ -14,4 +14,6 @@ The application runs only as client-side javascript in a web browser. The code i
 
 ## Minerva Author
 
-Minerva Author is a javascript web application based on [Openseadragon](https://openseadragon.github.io/) that runs locally on your computer. Using a lightweight python (flask) backend, it opens an [OME TIFF](https://docs.openmicroscopy.org/ome-model/5.6.3/ome-tiff/) file in a viewer that allows the grouping of channels to render together with colors and ranges per channel. You can set the name of each channel as well as the name of the channel group.
+Minerva Author is a javascript web application based on [Openseadragon](https://openseadragon.github.io/) that runs locally on your computer. Using a lightweight python (flask) backend, it opens an [OME TIFF](https://docs.openmicroscopy.org/ome-model/5.6.3/ome-tiff/) file in a viewer that allows you to group channels to render together with colors and ranges per channel. You can set the name of each channel as well as the name of each channel group.
+
+Once you've set up renderable channel groups, you can begin to write the story. You can write a sequence of points in the story each with a name, a description, rectangular overlays, arrow overlays, and a specific view of a given channel group. Once you hit "save", the application will output a configuration file and tiled image pyramid compatible with Minerva Story.
