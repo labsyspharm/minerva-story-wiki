@@ -2,7 +2,7 @@
 layout: home
 ---
 
-Use Minerva Author to narate high-resolution multichannel images to share with Minerva Story.
+Use Minerva Author to narrate high-resolution multichannel images to share with Minerva Story.
 
 ## Minerva Story
 
