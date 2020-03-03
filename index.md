@@ -2,7 +2,7 @@
 layout: home
 ---
 
-Use Minerva Author to view your high-resolution multichannel images and narations with Minerva Story.
+Use Minerva Author to narate high-resolution multichannel images to share with Minerva Story.
 
 ## Minerva Story
 
@@ -10,8 +10,8 @@ Minerva Story is a javascript web application based on [Openseadragon](https://o
 
 Minerva Story is designed for large-scale microscopy images. It is specifically targeted towards multichannel microsocpy images where there are more image channels than can be rendered simultaneously to the screen. Each point in a story corresponds to a rendered group of channels overlaid with one or more segmentation masks.
 
-The application runs only on client-side javascript in a web browser. The code is built as a jekyll web application to allow convenient binding of the configuration files and serving from github pages. The images must be served from an external web host such as a public bucket on AWS S3. 
+The application runs only as client-side javascript in a web browser. The code is built as a jekyll application to allow convenient binding of the configuration files and serving from github pages. The images must be served as a tiled image pyramid from an external web host such as a public bucket on AWS S3. 
 
 ## Minerva Author
 
-TODO
+Minerva Author is a javascript web application based on [Openseadragon](https://openseadragon.github.io/) that runs locally on your computer. Using a lightweight python (flask) backend, it opens an [OME TIFF](https://docs.openmicroscopy.org/ome-model/5.6.3/ome-tiff/) file in a viewer that allows the grouping of channels to render together with colors and ranges per channel. You can set the name of each channel as well as the name of the channel group.
